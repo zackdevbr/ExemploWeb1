@@ -65,3 +65,22 @@ console.log(valor2 < 100 || valor1 > 10);
 console.log(valor1 == valor2);
 console.log(valor2 === valor1);
 
+//Exercicio 1
+let precoProduto = 10;
+let desconto = 0.10; 
+precoProduto -= desconto * precoProduto;
+console.log("O preço final é " + precoProduto);
+
+//Exercicio 2
+const a = 20;
+const b = 10;
+console.log("O resultado da comparação é: ", a === 20 && b >= 10);
+
+
+//Exercicio 3
+
+let usuario = true;
+let senha = true;
+if(usuario == true && senha === true){
+    console.log("Transação Autorizada");
+}
