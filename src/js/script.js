@@ -42,3 +42,26 @@ console.log(exemplo7);
 //valor vazio
 let exemplo8 = null;
 console.log(exemplo8);
+
+// OPERADORES ARITMÉTICOS
+
+const valor1 = 10;
+const valor2 = 20;
+
+console.log(valor1 + valor2);
+console.log(valor1 - valor2);
+console.log(valor1 * valor2);
+console.log(valor1 / valor2);
+
+//OPERADORES LÓGICOS
+//  == comparação
+// === valor e tipo (escritamente igual)
+// && = E (todas condições ten que ser verdadeiras)
+// || = OU (uma das condições tem que ser verdadeira)
+
+console.log(valor1 < valor2);
+console.log(valor1 > 10 && valor2 < 10);
+console.log(valor2 < 100 || valor1 > 10);
+console.log(valor1 == valor2);
+console.log(valor2 === valor1);
+
